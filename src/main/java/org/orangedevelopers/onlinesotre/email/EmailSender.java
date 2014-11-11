@@ -1,4 +1,4 @@
-package org.orangedevelopers.consultancy.solution.email;
+package org.orangedevelopers.onlinesotre.email;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package org.orangedevelopers.consultancy.solution.controller;
+package org.orangedevelopers.onlinestore.controller;
 /*package org.orangedevelopers.consultancy.solution.test;
 
 import java.util.List;
