@@ -15,10 +15,6 @@ public class LoginController {
 	public String Bhenchod;
 	public String LunMoa;
 	
-	public String Bharway;
-	public String Loray;
-	public String yehLayEkAurCommitBC;
-	
 
 	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String loginUser(){
