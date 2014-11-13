@@ -1,4 +1,4 @@
-package org.orangedevelopers.consultancy.solution.session;
+package org.orangedevelopers.onlinesotre.session;
 
 import java.io.IOException;
 

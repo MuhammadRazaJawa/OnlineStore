@@ -22,17 +22,17 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
  -->	
-	 <context:component-scan base-package="org.orangedevelopers.consultancy.solution" />
+	 <context:component-scan base-package="org.orangedevelopers.onlinestore" />
 	
-	<!--<beans:bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+	<beans:bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <beans:property name="driverClassName" value="com.mysql.jdbc.Driver" />
-        <beans:property name="url" value="jdbc:mysql://localhost:3306/razajawa"/>
+        <beans:property name="url" value="jdbc:mysql://localhost:3306/onlinestore"/>
         <beans:property name="username" value="root" />
-        <beans:property name="password" value="pfi??labsoldev" />
-    </beans:bean> -->
+        <beans:property name="password" value="" />
+    </beans:bean>
     
     <!-- Hibernate Start  -->
-     <!-- 	<beans:bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+     	<beans:bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
       <beans:property name="dataSource" ref="dataSource" />
             <beans:property name="hibernateProperties">
          <beans:props>
@@ -43,8 +43,8 @@
             <beans:prop key="hibernate.hbm2ddl.auto">update</beans:prop>
          </beans:props>
       </beans:property>
-      <beans:property name="packagesToScan" value="org.orangedevelopers.consultancy.solution.entity" />
-    </beans:bean> -->
+      <beans:property name="packagesToScan" value="org.orangedevelopers.onlinesotre.entity" />
+    </beans:bean>
 	<!-- Hibernate End  -->
 	
 	<!-- Thymeleaf Start  -->
