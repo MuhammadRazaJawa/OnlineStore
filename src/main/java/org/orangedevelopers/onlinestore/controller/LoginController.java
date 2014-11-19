@@ -10,11 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class LoginController {
-	
-	public String youJustShutTheFuckUpWaqas;
-	public String Bhenchod;
-	public String LunMoa;
-	
+		
 
 	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String loginUser(){
