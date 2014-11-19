@@ -12,17 +12,18 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class LoginController {
 	
 	public String Razaaaaaaaaaaaa;
-		
+	//waqas shah	
 		
 		public String TEST;
-
+//waqas shah	
 	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String loginUser(){
 		return "login";
 	}
-	
+//waqas shah		
 	@RequestMapping(value="/login", method = RequestMethod.GET)
 	public String login(){
+	//waqas shah	
 		return "login";
 	}
 	
@@ -30,11 +31,16 @@ public class LoginController {
 	public String login(@RequestParam("username") String username, @RequestParam("password") String password,
 			HttpServletRequest request, HttpServletResponse response){
 		//TODO login by checking from DB credentials
+		//waqas shah	
 		if(username.equalsIgnoreCase("test") && password.equalsIgnoreCase("test")){
+		//waqas shah	
 			return "home";
+			//waqas shah	
 		}else{
 			request.setAttribute("errorMsg", "in both username and password type: test");
+			//waqas shah	
 			return "login";
+			//waqas shah	
 		}
 	}
 }
