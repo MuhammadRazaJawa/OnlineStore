@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class LoginController {
 		
+		
+		public String TEST;
 
 	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String loginUser(){
