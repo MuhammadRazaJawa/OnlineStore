@@ -19,11 +19,13 @@ public class LoginController {
 	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String loginUser(){
 		return "login";
+		//RAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaa
 	}
 	
 	@RequestMapping(value="/login", method = RequestMethod.GET)
 	public String login(){
 		return "login";
+		//RAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaa
 	}
 	
 	@RequestMapping(value="/login", method = RequestMethod.POST)
@@ -32,6 +34,7 @@ public class LoginController {
 		//TODO login by checking from DB credentials
 		if(username.equalsIgnoreCase("test") && password.equalsIgnoreCase("test")){
 			return "home";
+			//RAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaa
 		}else{
 			request.setAttribute("errorMsg", "in both username and password type: test");
 			return "login";
