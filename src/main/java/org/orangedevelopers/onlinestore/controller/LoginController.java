@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class LoginController {
+	
+	public String Razaaaaaaaaaaaa;
 		
 		
 		public String TEST;
