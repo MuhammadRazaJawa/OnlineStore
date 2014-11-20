@@ -11,14 +11,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class LoginController {
 	
+	public String youJustShutTheFuckUpWaqas;
+	public String Bhenchod;
+	public String LunMoa;
 	
-	public String hoshiPapa;
-	public String chandMeraDil;
-	
-	@RequestMapping(value="/Thukhh", method = RequestMethod.GET)
-	public String test1(){
-		return "login";
-	}
+	public String Bharway;
+	public String Loray;
+	public String yehLayEkAurCommitBC;
 	
 
 	@RequestMapping(value="/", method = RequestMethod.GET)
